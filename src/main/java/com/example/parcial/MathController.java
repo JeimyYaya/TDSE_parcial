@@ -12,9 +12,9 @@ public class MathController {
 
     @GetMapping("/fibwin")
     public RespuestaFibonacci getFibonacci(
-            @RequestParam(defaultValue = "10") int n,
-            @RequestParam(defaultValue = "3") int k) {
+            @RequestParam(name = "value", defaultValue = "10") int n) {
 
+        int k = 3;
         List<Long> serie = generarFibonacci(n);
         List<Long> ventana = calcularVentana(serie, k);
 
