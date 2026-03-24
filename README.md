@@ -3,15 +3,15 @@
 
 ## Overview
 
-El proyecto implementa una función de fibonacci desplegado en dos instacias EC2
+El proyecto implementa una función de fibonacci desplegado en dos instacias EC2.
 El video del funcionamiento se llama video-parcial.
+
 ---
 
 ## Architecture
 El sistema esta compuesto de 
-The system is composed of two independent servers:
 
-* **EC2 #1 (fibonacci 1 y 2)**
+* **EC2 (fibonacci 1 y 2)**
 
   * Expone REST API endpoint (`/fibwin)
  
