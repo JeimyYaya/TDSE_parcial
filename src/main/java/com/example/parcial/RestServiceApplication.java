@@ -4,10 +4,10 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ParcialApplication {
+public class RestServiceApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(ParcialApplication.class, args);
-	}
+public static void main(String[] args) {
+SpringApplication.run(RestServiceApplication.class, args);
+}
 
 }
