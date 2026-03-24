@@ -4,7 +4,7 @@
 ## Overview
 
 El proyecto implementa una función de fibonacci desplegado en dos instacias EC2
-
+El video del funcionamiento se llama video-parcial.
 ---
 
 ## Architecture
